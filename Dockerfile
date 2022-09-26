@@ -6,4 +6,4 @@ COPY package*.json ./
 
 RUN npm install --global copy 
 
-EXPOSE 8088 CMD [ "npm", "start" ]
+EXPOSE 300 CMD [ "npm", "start" ]
