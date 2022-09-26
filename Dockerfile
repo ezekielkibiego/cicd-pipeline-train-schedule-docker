@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./  
 
-RUN npm install --global copy 
+RUN npm install COPY ...
 
-EXPOSE 81:81 CMD [ "npm", "start" ]
+EXPOSE 8080 CMD [ "npm", "start" ]
